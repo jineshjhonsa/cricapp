@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">cricapp</string>
+    <string name="action_settings">Add Player</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_input">Input</string>
+    <string name="title_activity_add__player">add_Player</string>
+    <string name="title_activity_match_selection">match_selection</string>
+    <string name="title_activity_match_select">Match_select</string>
+    <string name="title_activity_matches">matches</string>
+    <string name="title_activity_final_tabs">final_tabs</string>
+    <string name="title_activity_innings">innings</string>
+    <string name="title_activity_first_select">first_select</string>
+</resources>

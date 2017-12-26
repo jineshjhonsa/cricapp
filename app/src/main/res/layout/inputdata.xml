@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:layout_weight=".5"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:text="Runs"
+            android:layout_height="wrap_content"
+            android:layout_weight=".3"/>
+        <TextView
+            android:layout_width="0dp"
+            android:text="Balls"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/name1"
+            android:layout_weight=".5"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:id="@+id/tempruns1"
+            android:layout_height="wrap_content"
+            android:layout_weight=".3"/>
+        <TextView
+            android:layout_width="0dp"
+            android:id="@+id/tempballs1"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/name2"
+            android:layout_weight=".5"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:id="@+id/tempruns2"
+            android:layout_height="wrap_content"
+            android:layout_weight=".3"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:id="@+id/tempballs2"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2"/>
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="Score: "/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/team"
+            android:text=""
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+          />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:id="@+id/overallrun"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="/"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/wkt"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Total Overs: "
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/tempover"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            />
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight=".2"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Overs:"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:id="@+id/perover"
+            android:layout_weight=".8"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="1,2,0,2"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/one"
+            android:text="1"
+            android:textSize="32sp"/>
+        <Button
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="2"
+            android:id="@+id/two"
+            android:textSize="32sp"/>
+        <Button
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="3"
+            android:id="@+id/three"
+            android:textSize="32sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/four"
+            android:text="4"
+            android:textSize="32sp"/>
+        <Button
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="5"
+            android:id="@+id/five"
+            android:textSize="32sp"/>
+        <Button
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="6"
+            android:id="@+id/six"
+            android:textSize="32sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/No"
+            android:text="N"
+            android:textSize="32sp"/>
+
+        <Button
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="W"
+            android:id="@+id/wide"
+            android:textSize="32sp"/>
+
+        <Button
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Wkt"
+            android:id="@+id/wicket"
+            android:textSize="32sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/oned"
+            android:text="1D"
+            android:textSize="32sp"/>
+
+        <Button
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="2D"
+            android:id="@+id/twod"
+            android:textSize="32sp"/>
+
+        <Button
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="done"
+            android:id="@+id/done"
+            android:textSize="32sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Batsman Name"
+            android:layout_weight=".5"/>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:text="R"
+            android:layout_height="wrap_content"
+            android:layout_weight=".1"/>
+        <TextView
+            android:layout_width="0dp"
+            android:text="B"
+            android:layout_height="wrap_content"
+            android:layout_weight=".1"/>
+        <TextView
+            android:layout_width="0dp"
+            android:text="4s"
+            android:layout_height="wrap_content"
+            android:layout_weight=".1"/>
+        <TextView
+            android:layout_width="0dp"
+            android:text="6s"
+            android:layout_height="wrap_content"
+            android:layout_weight=".1"/>
+    </LinearLayout>
+
+
+<ListView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/batting_list">
+
+</ListView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yet to bat"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/yetobat"/>
+
+
+        <LinearLayout
+            android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Bowler Name"
+                android:layout_weight=".5"/>
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:text="O"
+                android:layout_height="wrap_content"
+                android:layout_weight=".1"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:text="W"
+                android:layout_height="wrap_content"
+                android:layout_weight=".1"/>
+            <TextView
+                android:layout_width="0dp"
+                android:text="Econ"
+                android:layout_height="wrap_content"
+                android:layout_weight=".15"/>
+            <TextView
+                android:layout_width="0dp"
+                android:text="Extras"
+                android:layout_height="wrap_content"
+                android:layout_weight=".15"/>
+        </LinearLayout>
+
+    <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bowling_list">
+    </ListView>
+
+
+</LinearLayout>
+
+</ScrollView>

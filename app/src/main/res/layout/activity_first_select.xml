@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.admin.cricapp.first_select"
+    android:id="@+id/non_striker_select">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Striker_batsman"
+        android:animationCache="false"
+        android:spinnerMode="dialog"
+        android:layout_weight=".1"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:text="Please select Striker Batsman"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary" />
+    <TextView
+        android:layout_weight=".1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Striker_select"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="18sp"
+        android:textColor="#F44336"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/non_striker_batsman"
+        android:animationCache="false"
+        android:spinnerMode="dialog"
+        android:layout_weight=".1"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:text="Pleas Select Non Striker Batsman"
+        android:textColor="@color/colorPrimary" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Non_Striker_select"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_weight=".1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="18sp"
+        android:textColor="#F44336"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bowler"
+        android:animationCache="false"
+        android:spinnerMode="dialog"
+        android:layout_weight=".1"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:text="Please select bowler"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:textColor="@color/colorPrimary" />
+    <TextView
+        android:layout_weight=".1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bowler_select"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="18sp"
+        android:textColor="#F44336"
+        />
+
+    <Button
+        android:text="Done"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight=".1"
+        android:id="@+id/select_done"
+        android:layout_gravity="center"
+        android:gravity="center"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:textAppearance="@style/TextAppearance.Design.Tab"
+        android:textColor="@color/colorPrimary"/>
+
+</LinearLayout>
